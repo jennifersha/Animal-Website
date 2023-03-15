@@ -1,0 +1,34 @@
+body{
+    background-image:  url("Sources/a.jpg");
+     /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color: aliceblue;
+}
+h3{
+    text-align: right;
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+.pics {
+    display: flex;
+  }
+  
+.div {
+    flex-basis: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+#Date{
+   position:fixed;
+   left :80%;
+}
